@@ -1,0 +1,11 @@
+{
+  "name": "polymer-vizjs",
+  "description": "a polymer wrapper for importing viz.js (https://github.com/mdaines/viz.js)",
+  "main": "polymer-vizjs.html",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0"
+  }
+}

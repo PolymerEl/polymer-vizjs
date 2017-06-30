@@ -1,0 +1,32 @@
+{
+  "name": "polymer-graphviz",
+  "version": "1.5.0",
+  "description": "polymer wrapper for viz.js",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "graphviz"
+  ],
+  "authors": [
+    "christophe-g <christophe.geiser@gmail.com>"
+  ],
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": "https://github.com/polymerEl/polymer-graphviz",
+  "homepage": "https://github.com/polymerEl/polymer-graphviz",
+  "main": "polymer-vizjs-lite.html",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "rm -rf build && mkdir build && cp node_modules/viz.js/viz* build"
+  },
+  "dependencies": {
+       "viz.js": "^1.8.0"
+  },
+  "devDependencies": {
+  	
+  }
+}
